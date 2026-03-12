@@ -1,0 +1,11 @@
+.parent-div {
+  display: flex;
+  gap: 20px;
+}  /* Flexbox হলো CSS layout system, যেটা child elements (যেমন button, div ইত্যাদি) কে এক লাইনে বা column এ সুন্দরভাবে সাজাতে সাহায্য করে।
+ */	
+
+.card {
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 10px;
+}

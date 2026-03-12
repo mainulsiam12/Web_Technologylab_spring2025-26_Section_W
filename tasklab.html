@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <tittle>Login Form</tittle>
+    </head>
+    <body>
+        <h2>Login Form</h2>
+        <form onsubmit="return validateForm()">
+            Email:<br>
+            <input type="text" id="email"><br>
+            <p id="emailErr"></p>
+            Password:<br>
+            <input type="password" id="password"><br>
+            <p id="passwordErr"></p>
+            <button type="submit">Login</button>
+        </form>
+        <p id="error"></p>
+        <p>Wrong Attempt: <span id="count">0</span></p>
+        <script src="script.js"></script>
+    </body>
+</html>
